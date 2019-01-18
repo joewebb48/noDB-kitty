@@ -1,0 +1,27 @@
+main {
+  padding: 50px;
+  border: 5px black solid;
+  background-color: lightgray;
+}
+.add-name {
+  display: flex;
+  flex-direction: row;
+}
+.add-name input {
+  align-items: flex-start;
+  width: 100%;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.add-name button {
+  align-items: center;
+  background-color: lightgreen;
+  box-shadow: 10px 10px 5px #aaaaaa;
+
+  width: 100%;
+}
+.add-name h1 {
+  align-content: flex-end;
+  width: 100%;
+}
+/* .display-name {
+} */
