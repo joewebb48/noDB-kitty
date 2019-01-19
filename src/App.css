@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.components {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 /* .main-bird-div  */
 /* .bird-component {
   display: flex;

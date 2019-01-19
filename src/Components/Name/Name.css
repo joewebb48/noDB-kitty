@@ -1,27 +1,32 @@
 main {
   padding: 50px;
-  border: 5px black solid;
+  border: 5px blue solid;
   background-color: lightgray;
+  box-shadow: 4px 4px 6px black;
 }
 .add-name {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .add-name input {
   align-items: flex-start;
-  width: 100%;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  width: 50%;
+  box-shadow: 4px 4px 6px black;
 }
 .add-name button {
-  align-items: center;
+  /* align-items: center; */
   background-color: lightgreen;
-  box-shadow: 10px 10px 5px #aaaaaa;
+  box-shadow: 4px 4px 6px black;
 
-  width: 100%;
+  width: 50%;
 }
 .add-name h1 {
+  border: 2px black solid;
+  background-color: white;
+  height: 80px;
   align-content: flex-end;
-  width: 100%;
+  width: 50%;
 }
 /* .display-name {
 } */
